@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Checkpoint 1/style.css">
+  <title>CheckPoint 1 - Arrays</title>
+</head>
+
+<body>
+  <h1>CheckPoint 1 - Arrays</h1>
+
+  <form id="task-form">
+    <input type="text" id="description" placeholder="Descrição da tarefa" required>
+    <input type="text" id="author" placeholder="Autor" required>
+    <input type="text" id="department" placeholder="Departamento" required>
+    <input type="number" id="importance" placeholder="Importância (1 a 5)" min="1" max="5" required>
+    <input type="number" id="value" placeholder="Valor (opcional)">
+    <input type="number" id="duration" placeholder="Duração (opcional)">
+    <button>
+      <span class="transition"></span>
+      <span class="gradient"></span>
+      <span class="label">Button</span>
+    </button>
+  </form>
+
+  <table id="task-table">
+    <thead>
+      <tr>
+        <th>Descrição</th>
+        <th>Autor</th>
+        <th>Departamento</th>
+        <th>Importância</th>
+        <th>Valor</th>
+        <th>Duração</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="task-list"></tbody>
+  </table>
+
+  <script src="/Checkpoint 1/script.js"></script>
+</body>
+
+</html>
